@@ -1,0 +1,56 @@
+/*start Globel rules */
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Smoll Screens */ 
+.continer{
+ margin: 0 auto;
+}
+ 
+@media (min-width: 768px)  { 
+
+    .continer{
+        width: 750px;
+   
+    }
+} 
+ 
+/* Medium Screens */ 
+ 
+@media (min-width: 992px) { 
+
+    .continer{
+        width: 970px;
+    }
+} 
+ 
+/* Large Screens */ 
+ 
+@media (min-width: 1200px) { 
+    .continer{
+        width: 1170px;
+    }
+} 
+
+body{
+    font-family: 'Cairo', sans-serif;
+    
+   
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+ul
+{
+    list-style: none;
+}
+ /*End Globel rules */
